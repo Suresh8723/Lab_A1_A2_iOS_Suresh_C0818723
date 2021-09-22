@@ -9,23 +9,23 @@
 /* Begin PBXBuildFile section */
 		048E51C126FAA6E00022528F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048E51C026FAA6E00022528F /* AppDelegate.swift */; };
 		048E51C326FAA6E00022528F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048E51C226FAA6E00022528F /* SceneDelegate.swift */; };
-		048E51C526FAA6E00022528F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048E51C426FAA6E00022528F /* ViewController.swift */; };
 		048E51C826FAA6E00022528F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 048E51C626FAA6E00022528F /* Main.storyboard */; };
 		048E51CB26FAA6E00022528F /* Lab_A1_A2_iOS_Suresh_C0818723.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 048E51C926FAA6E00022528F /* Lab_A1_A2_iOS_Suresh_C0818723.xcdatamodeld */; };
 		048E51CD26FAA6E00022528F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 048E51CC26FAA6E00022528F /* Assets.xcassets */; };
 		048E51D026FAA6E00022528F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 048E51CE26FAA6E00022528F /* LaunchScreen.storyboard */; };
+		048E51DA26FAA8F70022528F /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048E51D726FAA8F70022528F /* MainViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		048E51BD26FAA6E00022528F /* Lab_A1_A2_iOS_Suresh_C0818723.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lab_A1_A2_iOS_Suresh_C0818723.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		048E51C026FAA6E00022528F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		048E51C226FAA6E00022528F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		048E51C426FAA6E00022528F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		048E51C726FAA6E00022528F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		048E51CA26FAA6E00022528F /* Lab_A1_A2_iOS_Suresh_C0818723.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Lab_A1_A2_iOS_Suresh_C0818723.xcdatamodel; sourceTree = "<group>"; };
 		048E51CC26FAA6E00022528F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		048E51CF26FAA6E00022528F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		048E51D126FAA6E00022528F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		048E51D726FAA8F70022528F /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +60,7 @@
 			children = (
 				048E51C026FAA6E00022528F /* AppDelegate.swift */,
 				048E51C226FAA6E00022528F /* SceneDelegate.swift */,
-				048E51C426FAA6E00022528F /* ViewController.swift */,
+				048E51D726FAA8F70022528F /* MainViewController.swift */,
 				048E51C626FAA6E00022528F /* Main.storyboard */,
 				048E51CC26FAA6E00022528F /* Assets.xcassets */,
 				048E51CE26FAA6E00022528F /* LaunchScreen.storyboard */,
@@ -140,10 +140,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				048E51C526FAA6E00022528F /* ViewController.swift in Sources */,
 				048E51C126FAA6E00022528F /* AppDelegate.swift in Sources */,
 				048E51CB26FAA6E00022528F /* Lab_A1_A2_iOS_Suresh_C0818723.xcdatamodeld in Sources */,
 				048E51C326FAA6E00022528F /* SceneDelegate.swift in Sources */,
+				048E51DA26FAA8F70022528F /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,6 +292,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Lab_A1_A2_iOS_Suresh_C0818723/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -299,7 +300,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.mac.Lab-A1-A2-iOS-Suresh-C0818723";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -310,6 +311,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Lab_A1_A2_iOS_Suresh_C0818723/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -317,7 +319,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.mac.Lab-A1-A2-iOS-Suresh-C0818723";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
