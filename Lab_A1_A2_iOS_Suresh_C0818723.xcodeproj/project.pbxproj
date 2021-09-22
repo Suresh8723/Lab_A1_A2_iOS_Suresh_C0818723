@@ -14,6 +14,8 @@
 		048E51CD26FAA6E00022528F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 048E51CC26FAA6E00022528F /* Assets.xcassets */; };
 		048E51D026FAA6E00022528F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 048E51CE26FAA6E00022528F /* LaunchScreen.storyboard */; };
 		048E51DA26FAA8F70022528F /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048E51D726FAA8F70022528F /* MainViewController.swift */; };
+		048E51DF26FAAA350022528F /* ProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048E51DD26FAAA350022528F /* ProductViewController.swift */; };
+		048E51E026FAAA350022528F /* ProviderProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048E51DE26FAAA350022528F /* ProviderProductViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		048E51CF26FAA6E00022528F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		048E51D126FAA6E00022528F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		048E51D726FAA8F70022528F /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		048E51DD26FAAA350022528F /* ProductViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductViewController.swift; sourceTree = "<group>"; };
+		048E51DE26FAAA350022528F /* ProviderProductViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProviderProductViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +65,8 @@
 				048E51C026FAA6E00022528F /* AppDelegate.swift */,
 				048E51C226FAA6E00022528F /* SceneDelegate.swift */,
 				048E51D726FAA8F70022528F /* MainViewController.swift */,
+				048E51DD26FAAA350022528F /* ProductViewController.swift */,
+				048E51DE26FAAA350022528F /* ProviderProductViewController.swift */,
 				048E51C626FAA6E00022528F /* Main.storyboard */,
 				048E51CC26FAA6E00022528F /* Assets.xcassets */,
 				048E51CE26FAA6E00022528F /* LaunchScreen.storyboard */,
@@ -143,7 +149,9 @@
 				048E51C126FAA6E00022528F /* AppDelegate.swift in Sources */,
 				048E51CB26FAA6E00022528F /* Lab_A1_A2_iOS_Suresh_C0818723.xcdatamodeld in Sources */,
 				048E51C326FAA6E00022528F /* SceneDelegate.swift in Sources */,
+				048E51DF26FAAA350022528F /* ProductViewController.swift in Sources */,
 				048E51DA26FAA8F70022528F /* MainViewController.swift in Sources */,
+				048E51E026FAAA350022528F /* ProviderProductViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
